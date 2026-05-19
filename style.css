@@ -11,7 +11,24 @@ body {
 }
 p {
     margin: 10px;
-   
+}
+.daynumber {
+    font-size: 70px;
+    color: black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.monthnumber {
+    font-size: 70px;
+    color: black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.yearnumber {
+    font-size: 70px;
+    color: black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .text {
     font-size: 50px;
@@ -52,7 +69,6 @@ p {
     height: 1110px;
     text-align: center;
     box-shadow: 8px 8px 0px 0px;
-    font-family: ;
 }
 
 .weekdays {
@@ -77,21 +93,36 @@ p {
     padding-top: 50px;
 
 }
-.weekdays div {
-}
 .days div {
     padding: 45px;
 }
 .button {
     display: flex;
+    justify-content: center;
+    margin: 50px;
     align-items: center;
-    justify-content: space-between;
-    gap: 0, 20px;
+}
+.button h3 {
+    flex: 1;
+    text-align: center;
+    margin: 0;
 }
 .buttonleft, .buttonright {
     background: none;
     border: none;
     font-size: 60px;
     cursor: pointer;
-    color: rgb(182, 176, 176);
+    color: rgb(211, 211, 211);
+}
+.buttonleft:hover, .buttonright:hover {
+    background-color: rgb(241, 241, 241);
+    cursor: pointer;
+    border-radius: 50px;
+    transform: scale (20.0);    
+}
+.days div:hover {
+    background-color: rgb(241, 241, 241);
+    cursor: pointer;
+    border-radius: 50px;
+    transform: scale (20.0);
 }
